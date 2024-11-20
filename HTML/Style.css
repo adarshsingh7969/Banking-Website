@@ -1,0 +1,233 @@
+/* Reset and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(Photos/OIP.jpg);
+}
+
+/* Header styling */
+header {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+header nav {
+    margin-top: 0.5rem;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+}
+
+header nav a img {
+    width: 18px;
+    margin-right: 0.5rem;
+}
+
+header nav a:hover {
+    color: #ffdd57;
+}
+
+/* Main styling */
+main {
+    padding: 2rem;
+    flex: 1;
+}
+
+/* Welcome section styling */
+.welcome {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #0073e6, #4ecdc4);
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.welcome p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.welcome .banner {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background-color: #ffdd57;
+    color: #333;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffcc00;
+}
+
+/* Account Page Styling */
+.account-overview {
+    text-align: center;
+    padding: 2rem;
+}
+
+.account-overview h2 {
+    font-size: 2rem;
+    color: #0073e6;
+    margin-bottom: 1rem;
+}
+
+.account-icon {
+    width: 50px;
+    margin-bottom: 1rem;
+}
+
+.account-card {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.account-card ul {
+    list-style-type: none;
+}
+
+.account-card li {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+/* Contact Page Styling */
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-form h2 {
+    font-size: 1.8rem;
+    color: #0073e6;
+    margin-bottom: 1rem;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 1.1rem;
+    margin: 1rem 0 0.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0.7rem;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #005bb5;
+}
+
+/* Footer styling */
+footer {
+    background-color: #0073e6;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header nav a {
+        font-size: 1rem;
+    }
+    .welcome h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* General styling for body and main sections */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+}
+
+/* Header styling */
+header {
+    background-color: #0073e6;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+}
+
+/* Main styling */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}

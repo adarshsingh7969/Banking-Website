@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Payment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bill Payment</h1>
+            <p>Pay your bills easily and securely.</p>
+         
+        </header>
+        <form action="#" method="post" class="bill-payment-form">
+            <div class="form-group">
+                <label for="biller-name">Biller Name</label>
+                <input type="text" id="biller-name" name="biller-name" placeholder="Enter biller name (e.g., electricity, water)" required>
+            </div>
+            <div class="form-group">
+                <label for="account-number">Account Number</label>
+                <input type="text" id="account-number" name="account-number" placeholder="Enter your account number" required>
+            </div>
+            <div class="form-group">
+                <label for="billing-date">Billing Date</label>
+                <input type="date" id="billing-date" name="billing-date" required>
+            </div>
+            <div class="form-group">
+                <label for="amount">Amount</label>
+                <input type="number" id="amount" name="amount" placeholder="Enter amount to pay" required>
+            </div>
+            <button type="submit" class="btn">Pay Now</button>
+        </form>
+    </div>
+</body>
+</html>
